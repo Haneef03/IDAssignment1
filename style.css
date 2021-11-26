@@ -127,4 +127,39 @@
    padding: 1em;
    border-radius: 1em;
  }
+
+ #exploreVariants{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  border-radius: 2em;
+  margin-top: 1em;
+  
+   
+}
+
+#exploreVariants img{
+  width: 250px;
+  padding: 1em;
+}
+
+#exploreVariants section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+
+  
+}
+
+#exploreVariants h3{
+  margin-bottom: 0;
+}
+
+
+
+
   

@@ -462,6 +462,7 @@ partsMain{
   flex-direction: column;
 }
 
+/*display*/
 disMain{
   background-color: #FEFFFE;
   display: flex;
@@ -505,9 +506,167 @@ disMain{
  padding: 1em;
  border-radius: 1em;
 }
+/*display*/
+.sidecar{
+  width: 170px;
+  position: flex;
+  z-index: 1;
+  top: 80px;
+  left: 20px;
+  background-color: #1E1E24;
+  overflow-x: hidden;
+  padding-top: 10px;
+  border-radius: 7px;
+}
 
+/*acc*/
+.sidecar a{
+  padding: 20px 20px 20px 36px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #048A81;
+  display: block;
+}
 
+.sidecar a:hover{
+  color: #06D6A0;
+}
 
+accMain{
+  background-color: #FEFFFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+#accessories{
+ background-color: #E6E6E6;
+ max-width: 1200px;
+ display:flex;
+ margin-top: 1em;
+ flex-wrap: wrap;
+  
+}
+
+#accessories img{
+ width: 250px;
+ padding: 1em;
+}
+
+#accessories section{
+ padding: 4em;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+
+ /*margin-bottom: 4em;
+ margin-top: 1em;*/
+ 
+}
+
+#accessories h3{
+ margin-bottom: 0;
+}
+
+#accessories button{
+ padding: 1em;
+ border-radius: 1em;
+}
+
+/*
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidecar {
+  flex: 30%;
+  padding: 20px;
+}
+
+.main{
+  flex: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+/*keyboards*/
+#Keyboards{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #Keyboards img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #Keyboards section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+  
+ }
+ 
+ #Keyboards h3{
+  margin-bottom: 0;
+ }
+ 
+ #Keyboards button{
+  padding: 1em;
+  border-radius: 1em;
+ }
+ /*keyboards*/
+
+ #Headsets{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #Headsets img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #Headsets section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+  
+ }
+ 
+ #Headsets h3{
+  margin-bottom: 0;
+ }
+ 
+ #Headsets button{
+  padding: 1em;
+  border-radius: 1em;
+ }
+
+ 
+/*acc*/
 
   

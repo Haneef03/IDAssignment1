@@ -233,7 +233,7 @@ table th{
   z-index: 1;
   top: 80px;
   left: 20px;
-  background-color: #A9DBB8;
+  background-color: #1E1E24;
   overflow-x: hidden;
   padding-top: 10px;
   border-radius: 7px;
@@ -243,14 +243,14 @@ table th{
   padding: 20px 20px 20px 36px;
   text-decoration: none;
   font-size: 25px;
-  color: #C81D25;
+  color: #048A81;
   display: block;
 }
 
 .sidecar a:hover{
-  color: #FF5A5F;
+  color: #06D6A0;
 }
-
+/*MotherBoards*/
 partsMain{
   background-color: #FEFFFE;
   display: flex;
@@ -294,8 +294,157 @@ partsMain{
  padding: 1em;
  border-radius: 1em;
 }
+/*motherboards*/
+/*CPU*/
+#CPU{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #CPU img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #CPU section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+ 
+  
+ }
+ 
+ #CPU h3{
+  margin-bottom: 0;
+ }
+ 
+ #CPU button{
+  padding: 1em;
+  border-radius: 1em;
+ }
+/*cpu*/
+/*GPU*/
+#GPU{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #GPU img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #GPU section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+ 
+  
+ }
+ 
+ #GPU h3{
+  margin-bottom: 0;
+ }
+ 
+ #GPU button{
+  padding: 1em;
+  border-radius: 1em;
+ }
+/*GPU*/
+/*ssd*/
+#SSD{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #SSD img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #SSD section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+ 
+  
+ }
+ 
+ #SSD h3{
+  margin-bottom: 0;
+ }
+ 
+ #SSD button{
+  padding: 1em;
+  border-radius: 1em;
+ }
+/*ssd*/
 
+/*supply*/ 
+#power{
+  background-color: #E6E6E6;
+  max-width: 1200px;
+  display:flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+   
+ }
+ 
+ #power img{
+  width: 250px;
+  padding: 1em;
+ }
+ 
+ #power section{
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*margin-bottom: 4em;
+  margin-top: 1em;*/
+ 
+  
+ }
+ 
+ #power h3{
+  margin-bottom: 0;
+ }
+ 
+ #power button{
+  padding: 1em;
+  border-radius: 1em;
+ }
 
+/*supply*/
 .row {
   display: flex;
   flex-wrap: wrap;

@@ -128,6 +128,8 @@
    border-radius: 1em;
  }
 
+ 
+
  #Variant1{
   background-color: #E6E6E6;
   max-width: 1200px;
@@ -223,6 +225,92 @@ table th{
 
 #Variant3 h3{
   margin-bottom: 0;
+}
+
+.sidecar{
+  width: 170px;
+  position: flex;
+  z-index: 1;
+  top: 80px;
+  left: 20px;
+  background-color: #A9DBB8;
+  overflow-x: hidden;
+  padding-top: 10px;
+  border-radius: 7px;
+}
+
+.sidecar a{
+  padding: 20px 20px 20px 36px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #C81D25;
+  display: block;
+}
+
+.sidecar a:hover{
+  color: #FF5A5F;
+}
+
+partsMain{
+  background-color: #FEFFFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#Motherboards{
+ background-color: #E6E6E6;
+ max-width: 1200px;
+ display:flex;
+ margin-top: 1em;
+ flex-wrap: wrap;
+  
+}
+
+#Motherboards img{
+ width: 250px;
+ padding: 1em;
+}
+
+#Motherboards section{
+ padding: 4em;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+
+ /*margin-bottom: 4em;
+ margin-top: 1em;*/
+
+ 
+}
+
+#Motherboards h3{
+ margin-bottom: 0;
+}
+
+#Motherboards button{
+ padding: 1em;
+ border-radius: 1em;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidecar {
+  flex: 30%;
+  padding: 20px;
+}
+
+.main{
+  flex: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 

@@ -462,6 +462,51 @@ partsMain{
   flex-direction: column;
 }
 
+disMain{
+  background-color: #FEFFFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#displays{
+ background-color: #E6E6E6;
+ max-width: 1200px;
+ display:flex;
+ margin-top: 1em;
+ flex-wrap: wrap;
+  
+}
+
+#displays img{
+ width: 250px;
+ padding: 1em;
+}
+
+#displays section{
+ padding: 4em;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+
+ /*margin-bottom: 4em;
+ margin-top: 1em;*/
+
+ 
+}
+
+#displays h3{
+ margin-bottom: 0;
+}
+
+#displays button{
+ padding: 1em;
+ border-radius: 1em;
+}
+
+
 
 
 

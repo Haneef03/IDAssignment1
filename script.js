@@ -9,3 +9,11 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+  /* Link to variants*/
+  function exploreBudget() {
+    window.location.href="budgetBuild.html";
+  }
+  function exploreLudicrous() {
+    window.location.href="ludicrousBuild.html";
+  }  

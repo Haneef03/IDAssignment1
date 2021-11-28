@@ -24,6 +24,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-100px";
+    document.getElementById("navbar").style.top = "-170px";
   }
 }

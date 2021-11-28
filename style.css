@@ -168,7 +168,15 @@
   #Variant3{
     flex-direction: column;
     flex-wrap: wrap;
-  } 
+  }
+  
+  .sidecar a{
+    padding: 10px 10px 10px 26px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #60048a;
+    /*display: block;*/
+  }
 }
  
 
@@ -548,30 +556,6 @@ disMain{
  border-radius: 1em;
 }
 /*display*/
-.sidecar{
-  width: 170px;
-  position: flex;
-  z-index: 1;
-  top: 80px;
-  left: 20px;
-  background-color: #1E1E24;
-  overflow-x: hidden;
-  padding-top: 10px;
-}
-
-/*acc*/
-.sidecar a{
-  padding: 20px 20px 20px 36px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #048A81;
-  display: block;
-}
-
-.sidecar a:hover{
-  color: #06D6A0;
-}
-
 accMain{
   background-color: #FEFFFE;
   display: flex;
@@ -615,24 +599,6 @@ accMain{
  border-radius: 1em;
 }
 
-/*
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.sidecar {
-  flex: 30%;
-  padding: 20px;
-}
-
-.main{
-  flex: 70%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-*/
 
 /*keyboards*/
 #Keyboards{

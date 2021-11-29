@@ -129,8 +129,18 @@
  }
 
  #selection button{
+   border: none;
    padding: 1em;
-   border-radius: 1em;
+   font-family: "montserrat", sans-serif;
+   border-radius: 6px;
+   cursor: pointer;
+   color: #FEFFFE;
+   transition: 0.6s;
+   background-image: linear-gradient(to left, #34e89e, #048A81);
+ }
+
+ #selection button:hover{
+   background-position: right;
  }
 /*selection media*/
 @media(max-width: 767px){
@@ -716,7 +726,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #06D6A0;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;

@@ -18,7 +18,7 @@
   }
   
   /* Style navigation menu links */
-  .topnav a {
+  .topnav #myLinks a {
     color: #F4F4F8;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,16 +34,23 @@
     position: absolute;
     left: 0;
     top: 0;
-    
+    padding: 20px 20px;
+    color: #F4F4F8;
+    text-decoration: none;
+    font-size: 17px;
   }
   
   /* Style the active link (or home/logo) */
-  .active {
+  .topnav a.active {
     background-color: #44d62c;
     color: white;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
     
   }
 
@@ -95,8 +102,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2em;
   }
 
+  main h2{
+    margin-top: 1em;
+  }
  #selection{
    background-color: #E6E6E6;
    max-width: 1200px;
@@ -128,7 +139,7 @@
    margin-bottom: 0;
  }
 
- #selection button{
+  #selection button{
    border: none;
    padding: 1em;
    font-family: "montserrat", sans-serif;
@@ -137,10 +148,13 @@
    color: #FEFFFE;
    transition: 0.6s;
    background-image: linear-gradient(to left, #34e89e, #048A81);
+   width:130px;
+   font-size:18px;
  }
 
  #selection button:hover{
    background-position: right;
+   color:#02020B;
  }
 /*selection media*/
 @media(max-width: 767px){
@@ -304,6 +318,7 @@ table th{
   font-size: 25px;
   color: #048A81;
   display: block;
+  transition: 0.3s;
 }
 
 .sidecar a:hover{
@@ -351,7 +366,17 @@ partsMain{
 
 #Motherboards button{
  padding: 1em;
- border-radius: 1em;
+ border: none;
+ border-radius: 7px;
+ cursor: pointer;
+ color:#FEFFFE;
+ transition: 0.6s;
+ background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+#Motherboards button:hover{
+  background-position: right;
+  color:#02020B;
 }
 /*motherboards*/
 /*CPU*/
@@ -388,8 +413,18 @@ partsMain{
  
  #CPU button{
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+
+ #CPU button:hover{
+  background-position: right;
+  color:#02020B;
+}
 /*cpu*/
 /*GPU*/
 #GPU{
@@ -425,8 +460,18 @@ partsMain{
  
  #GPU button{
   padding: 1em;
-  border-radius: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+
+ #GPU button:hover{
+  background-position: right;
+  color:#02020B;
+}
 /*GPU*/
 /*ssd*/
 #SSD{
@@ -462,8 +507,18 @@ partsMain{
  
  #SSD button{
   padding: 1em;
-  border-radius: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+
+ #SSD button:hover{
+  background-position: right;
+  color:#02020B;
+}
 /*ssd*/
 
 /*supply*/ 
@@ -500,8 +555,18 @@ partsMain{
  
  #power button{
   padding: 1em;
-  border-radius: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+
+ #power button:hover{
+  background-position: right;
+  color:#02020B;
+}
 
 /*supply*/
 .row {
@@ -561,9 +626,19 @@ disMain{
  margin-bottom: 0;
 }
 
-#displays button{
+#selection .buyButton{
  padding: 1em;
- border-radius: 1em;
+ border: none;
+ border-radius: 7px;
+ cursor: pointer;
+ color:#FEFFFE;
+ transition: 0.6s;
+ background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+.buyButton button:hover{
+  background-position: right;
+  color:#02020B;
 }
 /*display*/
 accMain{
@@ -606,7 +681,17 @@ accMain{
 
 #accessories button{
  padding: 1em;
- border-radius: 1em;
+ border: none;
+ border-radius: 7px;
+ cursor: pointer;
+ color:#FEFFFE;
+ transition: 0.6s;
+ background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+#accessories button:hover{
+  background-position: right;
+  color:#02020B;
 }
 
 
@@ -643,8 +728,18 @@ accMain{
  
  #Keyboards button{
   padding: 1em;
-  border-radius: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+
+ #Keyboards button:hover{
+  background-position: right;
+  color:#02020B;
+}
  /*keyboards*/
 
  #Headsets{
@@ -679,8 +774,18 @@ accMain{
  
  #Headsets button{
   padding: 1em;
-  border-radius: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
  }
+ 
+ #Headsets button:hover{
+  background-position: right;
+  color:#02020B;
+}
 /*acc*/
 
 /*footer*/
@@ -795,10 +900,12 @@ ul{
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  align-items: center;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #06D6A0;
   color: black;
+  border-radius: 18px;
 }
   

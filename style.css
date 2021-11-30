@@ -64,7 +64,8 @@
   
   .bg-image {
     /* The image used */
-    background-image: url("https://assets3.razerzone.com/OBwrSq6F8f-4kBdyFOTktDohrf8=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc7%2Fh73%2F9122164572190%2FTomahawk-Gaming-Desktop-1500x1000-20201204-01.jpg");
+    
+    background-image: url(./images/Bg_Image.jpg);
   
     /* Add the blur effect */
     filter: blur(2.5px);
@@ -203,7 +204,9 @@
   }
 }
  
-
+ main h1{
+   margin-top: 0.6em;
+ }
  #Variant1{
   background-color: #E6E6E6;
   max-width: 1200px;
@@ -230,6 +233,28 @@
 
   
 }
+#Variant1 h2{
+  margin-bottom: 1em;
+}
+#Variant1 h4{
+  margin-top: 1em;
+}
+
+#Variant1 button{
+  margin-top: 2em;
+  padding: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+#Variant1 button:hover{
+  background-position: right;
+  color:#02020B;
+}
 
 #Variant1 h3{
   margin-bottom: 0;
@@ -237,6 +262,12 @@
 
 table th{
   text-align: left;
+  padding: 9px;
+}
+
+table td{
+  vertical-align: top;
+  padding: 9px;
 }
 
 #Variant2{
@@ -265,9 +296,31 @@ table th{
 
   
 }
+#Variant2 h2{
+  margin-bottom: 1em;
+}
+
+#Variant2 h4{
+  margin-top: 1em;
+}
 
 #Variant2 h3{
   margin-bottom: 0;
+}
+#Variant2 button{
+  margin-top: 2em;
+  padding: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+#Variant2 button:hover{
+  background-position: right;
+  color:#02020B;
 }
 
 #Variant3{
@@ -297,8 +350,27 @@ table th{
   
 }
 
-#Variant3 h3{
-  margin-bottom: 0;
+#Variant3 h4{
+  margin-bottom: 1em;
+}
+#Variant3 h2{
+  margin-bottom: 1em;
+}
+
+#Variant3 button{
+  margin-top: 2em;
+  padding: 1em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color:#FEFFFE;
+  transition: 0.6s;
+  background-image: linear-gradient(to left, #34e89e, #048A81);
+}
+
+#Variant3 button:hover{
+  background-position: right;
+  color:#02020B;
 }
 
 .sidecar{
@@ -315,7 +387,7 @@ table th{
 .sidecar a{
   padding: 20px 20px 20px 36px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #048A81;
   display: block;
   transition: 0.3s;
@@ -336,10 +408,11 @@ partsMain{
 #Motherboards{
  background-color: #E6E6E6;
  max-width: 1200px;
- display:flex;
+ display: flex;
  margin-top: 1em;
  flex-wrap: wrap;
-  
+ justify-content: center;
+
 }
 
 #Motherboards img{
@@ -353,15 +426,15 @@ partsMain{
  justify-content: center;
  display: flex;
  flex-direction: column;
-
+ margin-top: 0;
  /*margin-bottom: 4em;
  margin-top: 1em;*/
 
  
 }
 
-#Motherboards h3{
- margin-bottom: 0;
+#Motherboards h4{
+ margin-bottom: 1em;
 }
 
 #Motherboards button{
@@ -372,13 +445,14 @@ partsMain{
  color:#FEFFFE;
  transition: 0.6s;
  background-image: linear-gradient(to left, #34e89e, #048A81);
+ margin-top: 2em;
 }
 
 #Motherboards button:hover{
   background-position: right;
   color:#02020B;
 }
-/*motherboards*/
+/*end of motherboards*/
 /*CPU*/
 #CPU{
   background-color: #E6E6E6;
@@ -386,6 +460,7 @@ partsMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  
@@ -433,6 +508,7 @@ partsMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  
@@ -480,6 +556,7 @@ partsMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  
@@ -528,6 +605,7 @@ partsMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  
@@ -655,6 +733,7 @@ accMain{
  display:flex;
  margin-top: 1em;
  flex-wrap: wrap;
+ justify-content: center;
   
 }
 
@@ -702,6 +781,7 @@ accMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  
@@ -748,6 +828,7 @@ accMain{
   display:flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  justify-content: center;
    
  }
  

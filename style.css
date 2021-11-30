@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
   /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -43,10 +43,11 @@
   /* Style the active link (or home/logo) */
   .topnav a.active {
     background-color: #44d62c;
-    color: white;
+    color: black;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: "Poppins";
+    font-weight: 1000;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -131,9 +132,7 @@
    display: flex;
    flex-direction: column;
    /*margin-bottom: 4em;
-   margin-top: 1em;*/
-
-   
+   margin-top: 1em;*/  
  }
 
  #selection h3{
@@ -242,13 +241,15 @@
 
 #Variant1 button{
   margin-top: 2em;
-  padding: 1em;
+  padding: 1.5em;
   border: none;
   border-radius: 7px;
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  width: 130px;
+  font-weight: 600;
 }
 
 #Variant1 button:hover{
@@ -309,13 +310,15 @@ table td{
 }
 #Variant2 button{
   margin-top: 2em;
-  padding: 1em;
+  padding: 1.5em;
   border: none;
   border-radius: 7px;
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  width: 130px;
+  font-weight: 600;
 }
 
 #Variant2 button:hover{
@@ -359,13 +362,15 @@ table td{
 
 #Variant3 button{
   margin-top: 2em;
-  padding: 1em;
+  padding: 1.5em;
   border: none;
   border-radius: 7px;
   cursor: pointer;
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  width: 130px;
+  font-weight: 600;
 }
 
 #Variant3 button:hover{
@@ -494,6 +499,7 @@ partsMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
 
  #CPU button:hover{
@@ -542,6 +548,7 @@ partsMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
 
  #GPU button:hover{
@@ -590,6 +597,7 @@ partsMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
 
  #SSD button:hover{
@@ -639,6 +647,7 @@ partsMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
 
  #power button:hover{
@@ -665,6 +674,9 @@ partsMain{
 }
 
 /*display*/
+main h3{
+  margin-top: 10px;
+}
 disMain{
   background-color: #FEFFFE;
   display: flex;
@@ -712,11 +724,17 @@ disMain{
  color:#FEFFFE;
  transition: 0.6s;
  background-image: linear-gradient(to left, #34e89e, #048A81);
+ margin-top: 2em;
+ font-weight: 590;
 }
 
 .buyButton button:hover{
   background-position: right;
   color:#02020B;
+}
+
+#selection h4{
+  margin-top: 10px;
 }
 /*display*/
 accMain{
@@ -766,6 +784,7 @@ accMain{
  color:#FEFFFE;
  transition: 0.6s;
  background-image: linear-gradient(to left, #34e89e, #048A81);
+ margin-top: 2em;
 }
 
 #accessories button:hover{
@@ -814,6 +833,7 @@ accMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
 
  #Keyboards button:hover{
@@ -861,6 +881,7 @@ accMain{
   color:#FEFFFE;
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
+  margin-top: 2em;
  }
  
  #Headsets button:hover{

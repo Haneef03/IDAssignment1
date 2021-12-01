@@ -47,7 +47,7 @@
     text-align: center;
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-family: "Poppins";
-    font-weight: 1000;
+    font-weight: 700;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -410,6 +410,10 @@ partsMain{
   flex-wrap: wrap;
 }
 
+partsMain h2{
+  margin-top: 1em;
+}
+
 #Motherboards{
  background-color: #E6E6E6;
  max-width: 1200px;
@@ -451,6 +455,7 @@ partsMain{
  transition: 0.6s;
  background-image: linear-gradient(to left, #34e89e, #048A81);
  margin-top: 2em;
+ width: 92px;
 }
 
 #Motherboards button:hover{
@@ -500,6 +505,7 @@ partsMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
 
  #CPU button:hover{
@@ -549,6 +555,7 @@ partsMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
 
  #GPU button:hover{
@@ -598,6 +605,7 @@ partsMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
 
  #SSD button:hover{
@@ -648,6 +656,7 @@ partsMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
 
  #power button:hover{
@@ -745,6 +754,10 @@ accMain{
   flex-wrap: wrap;
 }
 
+accMain h2{
+  margin-top: 1em;
+}
+
 #accessories{
  background-color: #E6E6E6;
  max-width: 1200px;
@@ -785,6 +798,7 @@ accMain{
  transition: 0.6s;
  background-image: linear-gradient(to left, #34e89e, #048A81);
  margin-top: 2em;
+ width: 92px;
 }
 
 #accessories button:hover{
@@ -834,6 +848,7 @@ accMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
 
  #Keyboards button:hover{
@@ -882,6 +897,7 @@ accMain{
   transition: 0.6s;
   background-image: linear-gradient(to left, #34e89e, #048A81);
   margin-top: 2em;
+  width: 92px;
  }
  
  #Headsets button:hover{

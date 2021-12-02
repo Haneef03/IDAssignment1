@@ -27,7 +27,13 @@
     transition: all 0.3s ease;
   }
   
-  /* Style the hamburger menu */
+  .menuIcon {
+    width:20px;
+    height:4px;
+    background-color: white;
+    margin:4px 0;
+  }
+
   .topnav a.icon {
     background: black;
     display: block;
